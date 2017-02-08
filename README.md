@@ -4,7 +4,7 @@
 
 ``` docker run [NOME DA IMAGEM] ```
 
-### Listando os containeres
+### Listando as imagens
 
 ``` docker images ```
 
@@ -15,8 +15,8 @@ No dockerfile existem alguns coringas, estes são:
 - RUN - os comando que serão executados. Como se rodasse estes mesmo comandos no terminal;
 - CMD - Informa o camando final que será executado depois do ambiente configurado;
 
-### Build de um container
-O parâmetro -t é o nome do container (vem de tag).
+### Build de uma imagem
+O parâmetro -t é o nome da imagem (vem de tag).
 
 Ps.: Não esquecer do ponto no final.
 
