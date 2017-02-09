@@ -2,5 +2,5 @@
 
 ### Assuntos:
 
-- [Docker - Basics](../blob/master/docker-basics.md)
-- [Docker Machine - Basics](../blob/master/docker-machine-basics.md)
+- [Docker - Basics](../master/docker-basics.md)
+- [Docker Machine - Basics](../master/docker-machine-basics.md)
