@@ -26,11 +26,19 @@ Tipos de Namespaces:
 - uts - controle de recursos do Kernel
 
 ### Commits
-Qualquer alteração realizada em um container é perdida assim que ele deixar de estar ativo. Para persistir alterações feitas em um container é necessário comiitar (assim como no git) as alterações feitas. Dessa forma o estado atual no momento do commit será registrado. Além de fazer esse registro é possível também retornar a estado anteriores através do versionamento.
+Qualquer alteração realizada em um container é perdida assim que ele deixar de estar ativo. Para persistir alterações feitas em um container é necessário commitar (assim como no git) as alterações feitas. Dessa forma o estado atual no momento do commit será registrado. Além de fazer esse registro é possível também retornar a estados anteriores através do uso de versionamento.
 
 Ao salvar um commit de um container uma nova imagem é gerada a partir do commit de alteração.
+
+### O que é um Dockerfile?
+É um arquivo utilizado para criar containers a partir de rotinas usando shell script contidas neste arquivo.
+
+### Qual a diferença entre criar um container manualmente e usando um Dockerfile?
+No Dockerfile todas as rotinas que seriam feitas na criação de um novo container de forma interativa estão descritas no arquivo, tornando o processo mais rápido, simples e principalmente automatizado.   
+
 ### Basics:
 
 - [Images - Basics](../master/docker-basics.md)
 - [Containers - Basics](../master/container-basics.md)
+- [Dockerfile - Basics](../master/dockerfile-basics.md)
 - [Docker Machine - Basics](../master/docker-machine-basics.md)
