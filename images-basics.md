@@ -1,8 +1,8 @@
-## Docker
+## Images
 
 ### Rodando uma imagem
 
-``` docker run [NOME DA IMAGEM] ```
+``` docker pull [NOME DA IMAGEM] ```
 
 ### Listando as imagens
 
