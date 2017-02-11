@@ -25,6 +25,10 @@ Tipos de Namespaces:
 - mnt - pontos de montagem
 - uts - controle de recursos do Kernel
 
+### Commits
+Qualquer alteração realizada em um container é perdida assim que ele deixar de estar ativo. Para persistir alterações feitas em um container é necessário comiitar (assim como no git) as alterações feitas. Dessa forma o estado atual no momento do commit será registrado. Além de fazer esse registro é possível também retornar a estado anteriores através do versionamento.
+
+Ao salvar um commit de um container uma nova imagem é gerada a partir do commit de alteração.
 ### Basics:
 
 - [Images - Basics](../master/docker-basics.md)
