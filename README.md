@@ -9,7 +9,7 @@ São os serviços virtualizados criados e mantidos isoladamente do host e dos de
 ### O que é uma imagem?
 É um modelo para criação de containers.
 
-### Qual a diferença entre uma imagem e um constainer?
+### Qual a diferença entre uma imagem e um container?
 Pensando em OO, uma imagem é como se fosse uma classe e um container é como se fosse uma instância desta classe. Uma imagem é um modelo, um template para a criação de novos containers. Logo de uma mesma imagem podem ser criados vários containers, todos encapsulados e funcionando de forma independente dos demais.
 
 ### O que são Cgroups?
